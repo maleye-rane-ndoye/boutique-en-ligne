@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+:root{
+    --soft-green:#3EFF8B; 
+    --green:#7D9F6C;
+    --after-green:#38A700;
+    --hot-green:#386C0B;
+    --dark-green:#293F14;
+    --white:#fff;
+    --orange:#a16e21;
+    --purpl:#3d0249;
+    --light-bg:#f5f5f5;
+    --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} 
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    
+}
+
+
+.navtop{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--hot-green);
+    align-items: center;
+    color: var(--white);
+}
+.navtop a {
+    color: var(--white);
+    text-decoration: underline;
+    
+}
+.navtop a i {
+    margin: 0px 10px;
+}
+.navbottom{
+    background-color: var(--dark-green);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: var(--white);
+}
+.navbottom a {
+    color: var(--white);
+}
+.navbottom a:hover{
+   text-decoration: underline;
+}
+.postal-content{
+    background-color: var(--white);
+    color: black;
+    align-items: center;
+    padding: 0.5rem;
+    
+}
+.postal-content input{
+    width: 100%;
+    font-size: 16px;
+}
+
+.search-content{
+    background-color: var(--white);
+    padding: 1rem;
+    display: flex;
+}
+.search-content input{
+    font-size: 1rem;
+}
+.search-content button{
+    width: 2rem;
+    cursor: pointer;
+    background-color: var(--light-bg);
+}
+.box{
+    background-color: var(--light-bg);
+    border: var(--border);
+    height: 2rem;
+    font-size: 1rem;
+}
+footer{
+    background-color: var(--dark-green);
+    color: var(--white);
+    text-align: center;
+   
+}
+.links-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    margin:1.5rem 0rem
+}
+.footer-link a{
+    color: var(--white);
+    font-size: 0.8;
+    text-align: start;
+    margin: 0.5rem 0rem;
+}
+.footer-link a:hover{
+    text-decoration: underline;
+}
+.footer-actu{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--hot-green);
+    align-items: center;
+    
+}
+.footer-actu a i{
+    width: 3rem;
+    margin: 0.8rem 0rem;
+    align-items: center;
+    color: var(--white);
+}
+.fa-sharp fa-regular fa-envelope{
+    width: 3rem;
+}
+.newsletter{
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+}
+.newsletter span{
+    margin: 0rem 0.5rem;
+    color: black;
+}
+.newsletter button i {
+    padding: 0.6rem 0.5rem;
+    background-color: var(--light-bg);
+    transition: 0.2;
+}
+.newsletter button i:hover{
+    background-color: var(--dark-green);
+    color: var(--white);
+    
+}
+.login-content{
+    margin:auto;
+    margin-bottom: 2rem;
+    width: 90%;
+    height: 500px;
+    background-color: var(--green);
+    text-align: center;
+    font-size: 1rem;
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
+.login-content form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 1rem;
+    margin: 1rem auto;
+    
+}
+.login-content form input{
+   width: 90%;
+   margin: 1.5rem auto;
+   height: 2.5rem;
+   font-size: 1.5rem;
+}
+.login-content form label{
+    margin: 0.5rem 0rem;
+}
+.button{
+    background-color: var(--hot-green);
+    color: var(--white);
+    margin: 1.5rem auto;
+    height: 2.5rem;
+    font-size: 1.5rem;
+}
+.button:hover{
+    opacity: 0.5;
+}
+.body-login{
+    background-color: var(--green);
+}
+.toggle{
+    display: flex;
+    justify-content: center;
+    margin-top:2rem;
+}
+.toggle a{
+    width: 45%;
+    height: 3rem;
+    background-color: var(--hot-green);
+    font-size: 1.5rem;
+    color: var(--white);
+    text-align: center;
+    border-left: 1px solid var(--white);
+    border-right: 1px solid var(--white);
+
+}
+.toggle a:hover{
+    opacity: 0.5;
+}
+.toggle a p {
+    margin-top: 10px;
+}
+.toggle-button-login{
+    opacity: 0.5;
+}
+.toggle-button-register{
+    opacity: 0.5;
+}
+.register-content{
+    margin:auto;
+    margin-bottom: 2rem;
+    width: 90%;
+    height: 550px;
+    background-color: var(--green);
+    text-align: center;
+    font-size: 1rem;
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+.register-content form{
+    display: flex;
+    justify-content: space-around;
+}
+.register-content-left{
+    display: flex;
+    flex-direction: column;
+}
+.register-content-right{
+    display: flex;
+    flex-direction: column;
+}
+.register-content-left input{
+    width: 100%;
+    margin: 1.5rem auto;
+    height: 2.5rem;
+    font-size: 1.5rem;
+ }
+ .register-content-right input{
+    width: 100%;
+    margin: 1.5rem auto;
+    height: 2.5rem;
+    font-size: 1.5rem;
+ }
+ .register-content h3,.login-content h3 {
+    margin: 1rem 0;
+ }
+ .register-content-left label, .register-content-right label{
+    text-align: start;
+ }
+ .nav1,.nav2,.nav3,.nav4,.nav5,.nav6,.nav7{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: var(--soft-green);
+    margin:1rem 0;
+    background-image: url(../images/Infusion.jpg);
+    background-size: contain;
+    transition-property: margin-top;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+ }
+ .nav2{
+    background-image: url(../images/Thé\ vert.jpg);
+    background-size: contain;
+ }
+ .nav3{
+    background-image: url(../images/thés\ noirs.jpg);
+    background-size: contain;
+ }
+ .nav4{
+    background-image: url(../images/Thé\ blanc.jpg);
+    background-size: contain;
+ }
+ .nav5{
+    background-image: url(../images/Thé-infusion.jpg);
+    background-size: contain;
+ }
+ .nav6{
+    background-image: url(../images/Rooibos.jpg);
+    background-size: contain;
+ }
+ .nav7{
+    background-image: url(../images/Mug.jpg);
+    background-size: contain;
+ }
+ .nav1:hover,.nav2:hover,.nav3:hover,.nav4:hover,.nav5:hover,.nav6:hover,.nav7:hover{
+    margin-top: 0.5rem;
+ }
+ .nav-content{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .nav-content div p{
+    text-align: center;
+    margin: 1rem 0;
+ }
+ .nav-content div {
+    align-items: center;
+ }
+
+.wall img{
+    width: 100%;
+    margin: auto;
+ }
+ .post{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    
+ }
+ .post-content{
+    width: 15rem;
+    height: 30rem;
+    background-color: var(--white);
+    text-align: center;
+    margin: 2rem auto;
+    box-shadow: var(--box-shadow);
+   
+    
+ }
+ .post-content div img{
+    width: 15rem;
+    height: 15rem;
+ }
+ .post-content h4{
+    margin: 0.5rem 0;
+    height: 2rem;
+ }
+ 
+ .post-content p{
+    height: 2rem;
+    margin: 0.5rem 0;
+    color: var(--green);
+    font-size: 0.8rem;
+ }
+ .post-content .prix{
+    font-size: 1.5rem;
+ }
+ .actions{
+    background-color: var(--white);
+    width: 90%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-left: 0.7rem;
+    border: 2px solid var(--green);
+    transition-property:background-color;
+    transition-duration:0.2s;
+    transition-delay: 0.2s;
+ }
+ .actions button {
+    font-size: 1.2rem;
+    background-color:transparent;
+    cursor: pointer;
+    
+ }
+ .actions:hover{
+    background-color: var(--green);
+ }
+ .produit-container{
+    display: flex;
+    align-items: center;
+ }
+ .image-produit img{
+    width: 40rem;
+    height: 40rem;
+ }
+ .details-produit{
+    width: 40rem;
+    height: 500px;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    border-left: 1px solid var(--green);
+ }
+ .details-produit h1{
+    margin: 2rem;
+ }
+ .details-produit p{
+    margin: 2rem;
+ }
+ .quantity ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    
+ }
+ .details-star{
+    margin: 2rem;
+ }
+i.fa-star:before{
+    padding: 1rem;
+    color: red;
+    width: 2rem;
+ }
+ .prix{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    align-items: center ;
+    
+ }
+ .prix div button{
+    font-size: 2rem;
+    margin: 0rem 2rem;
+    background-color: transparent;
+    cursor: pointer;
+
+ }
+.prix div span{
+    font-size: 3rem;
+    background-color: var(--white);
+    border:1px solid var(--green);
+    padding:1rem 1rem;
+    box-shadow: var(--box-shadow);
+}
+.oder{
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+}
+.oder a{
+    color: white;
+    align-items: center;
+    text-align: center;
+    width: 15rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+.oder a p{
+    margin: 1rem 1rem;
+}
+.oder a:hover{
+    opacity: 0.5;
+}
+#achat{
+    background-color: var(--orange);
+}
+#ajout{
+    background-color: var(--purpl);
+}
+#delete{
+    background-color: red;
+}
+.suggest-produit h1{
+ text-align: center;
+ color: var(--green);
+ margin-top: 1rem;
+}
+.suggest-produit{
+    border-top: 2px solid var(--green);
+}
+.panier{
+    margin-top: 3rem;
+    border-top: 1px solid var(--green);
+}
+.produit-added img{
+    width: 15rem;
+    height: 15rem;
+}
+.produit-list{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+.total-price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid var(--green);
+}
+#achat-unitaire{
+    background-color: var(--hot-green);
+    width: 7rem;
+}
+#delete-unitaire{
+    background-color: red;
+    width: 7rem;
+    
+}
+.oder #achat-unitaire p{
+    margin: 0.5rem 0.5rem;
+}
