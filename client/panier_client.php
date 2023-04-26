@@ -50,7 +50,7 @@
                     <h4>Nom du produit</h4>
                     <p>Prix du produit</p>
                     <div class="oder">
-                        <a href="" id="achat-unitaire"><p>Acheter l'article</p></a>
+                        <a href="paiment_client.php" id="achat-unitaire"><p>Acheter l'article</p></a>
                         <a href="" id="delete-unitaire"><p>supprimer</p></a>
                     </div>
                  </div>
@@ -59,7 +59,7 @@
                     <h4>Nom du produit</h4>
                     <p>Prix du produit</p>
                     <div class="oder">
-                        <a href="" id="achat-unitaire"><p>Acheter l'article</p></a>
+                        <a href="paiment_client.php" id="achat-unitaire"><p>Acheter l'article</p></a>
                         <a href="" id="delete-unitaire"><p>supprimer</p></a>
                     </div>
                  </div>
@@ -68,7 +68,7 @@
                     <h4>Nom du produit</h4>
                     <p>Prix du produit</p>
                     <div class="oder">
-                        <a href="" id="achat-unitaire"><p>Acheter l'article</p></a>
+                        <a href="paiment_client.php" id="achat-unitaire"><p>Acheter l'article</p></a>
                         <a href="" id="delete-unitaire"><p>supprimer</p></a>
                     </div>
                  </div>
@@ -78,7 +78,7 @@
                     <h4>Nom du produit</h4>
                     <p>Prix du produit</p>
                     <div class="oder">
-                        <a href="" id="achat-unitaire"><p>Acheter l'article</p></a>
+                        <a href="paiment_client.php" id="achat-unitaire"><p>Acheter l'article</p></a>
                         <a href="" id="delete-unitaire"><p>supprimer</p></a>
                     </div>
                  </div>
@@ -89,7 +89,7 @@
                 <p>Nombre:</p>
                 <p>Prix total:</p>
                 <div class="oder">
-                        <a href="" id="achat"><p>Acheter maintenant</p></a>
+                        <a href="paiment_client.php" id="achat"><p>Acheter maintenant</p></a>
                         <a href="" id="delete"><p>supprimer</p></a>
                  </div>
             </div>

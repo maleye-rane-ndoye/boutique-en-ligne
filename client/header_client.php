@@ -34,20 +34,20 @@
                         </form>
                         <button><i class="fa fa-search"></i></button>
                     </div>
-                    <a href="login_client.php"><i class="fa fa-user"></i>Se connecter</a>
-                    <a href=""><i class="fas fa-right-from-bracket"></i> Retours et commandes</a>
-                    <a href=""><i class="fa fa-shopping-bag"></i>Panier</a>
+                    <a href="../client/login_client.php"><i class="fa fa-user"></i>Se connecter</a>
+                    <a href="../client/retours_commandes_client.php"><i class="fas fa-right-from-bracket"></i> Retours et commandes</a>
+                    <a href="../client/panier_client.php"><i class="fa fa-shopping-bag"></i>Panier</a>
                </div>
 
                <div class="navbottom">
-                   <a href=""><i class="fa fa-bars"></i></a>
-                   <a href="">Thés</a>
-                   <a href="">Tisanes</a>
-                   <a href="">Rooibos</a>
-                   <a href="">Accessoires</a>
-                   <a href="">Nouveautés</a>
+                   <a href="../client/dashboard_client.php"><i class="fa fa-house"></i></a>
+                   <a href="../produit/the_produit.php">Thés</a>
+                   <a href="../produit/tisanes_produit.php">Tisanes</a>
+                   <a href="../produit/rooibos_produit.php">Rooibos</a>
+                   <a href="../produit/accessoires_produit.php">Accessoires</a>
+                   <a href="../produit/nouveaute_produit.php">Nouveautés</a>
                    <a href="">Blog</a>
-                   <a href="">Contact</a>
+                   <a href="../produit/contact_produit.php">Contact</a>
                </div>
        </header>
 </body>
